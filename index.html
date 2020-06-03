@@ -1,79 +1,460 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title> Wanck IT Personal site</title>
-</head>
-
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="https://yt3.ggpht.com/a/AGF-l78bXCfkUSrBXVxytQO0gmCSbVY0NLPJgmFwUQ=s900-c-k-c0xffffffff-no-rj-mo" alt="profile" width="250px" height="200px"></td>
-      <td>
-        <h1>Wanck IT</h1>
-        <p><em>Founder and CEO of</em>&nbsp&nbsp<strong><a href="http://wanckit.com">Wanck IT</a></strong></p>
-        <p>I am an IOS and web development. I love coffe and brew my own beers</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Books and Teaching</h3>
-  <ul>
-    <li>Physics</li>
-    <li>Mathematics</li>
-    <li>Geography</li>
-    <li>History</li>
-    <li>Computer Science</li>
-  </ul>
-  <a href="hobbies.html">My hobbies</a> &nbsp&nbsp&nbsp
-  <a href="contact.html">My Contacts</a> &nbsp&nbsp&nbsp
-  <a href="inputs.html">Inputs form list</a>
-  <hr>
-  <h3>Work experience</h3>
-  <table cellspacing="8">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2013</td>
-        <td>Software developer</td>
-      </tr>
-      <tr>
-        <td>2010</td>
-        <td>Mobile App developer</td>
-      </tr>
-    </tbody>
-    <tfoot>
-    </tfoot>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="15">
-    <tr>
-      <td>Mobile development</td>
-      <td><img src="images/4-stars-img.png" alt="stars" width="80px" height="20px"></td>
-      <td>Web development</td>
-      <td><img src="images/4-stars-img.png" alt="stars" width="80px" height="20px"></td>
-    </tr>
-    <tr>
-      <td>Photoshop</td>
-      <td><img src="images/4-stars-img.png" alt="stars" width="80px" height="20px"></td>
-      <td>Premier pro</td>
-      <td><img src="images/4-stars-img.png" alt="stars" width="80px" height="20px"></td>
-    </tr>
-    <tr>
-      <td>Network administration</td>
-      <td>&nbsp&nbsp<img src="images/3-stars-img.png" alt="" width="70px" height="15px"></td>
-      <td>Computer system and maintenance</td>
-      <td>&nbsp&nbsp<img src="images/3-stars-img.png" alt="" width="70px" height="15px"></td>
-    </tr>
-  </table>
-
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <title> Wanck IT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud">
+      <h1>I'm Wanck Itoua</h1>
+      <h2>A Software Engineer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+      <img src="images/mountain.png" alt="mountain">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/my-profile.png" width="200px" alt="profile">
+        <h2>Tea 🍵 lover</h2>
+        <p> Big tech enthusiast, I evolve in the fields of Mobile app development and Web Development.
+          Until recent I was able to develop over 10+ projects, including websites and android mobile apps,
+          some projects were school oriented and many others
+          as personal projects.</p>
+      </div>
+      <div class="technical-skill">
+        <img src="images/skill.png" width="200px" alt="skill">
+        <h3>Technical Skills</h3>
+        <hr>
+          <table cellspacing="20">
+            <tr>
+              <td>HTML/CSS</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+              </td>
+              <td class="col-2">Javascript</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Photoshop</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">Premier pro</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>After Effects</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">Flutter (Dart)</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>MySQL</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">SQL</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Linux (Ubuntu/Redhat/Kali)</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">Core Java</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Wordpress</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">PHP</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </td>
+              <td class="col-2">Network (LAN,Router,CCNA Cisco)</td>
+              <td colspan="1">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </td>
+            </tr>
+          </table>
+      </div>
+      <div class="project-panel">
+        <img src="images/project-panel.png" width="200px" alt="project-panel">
+        <h3>Projects panel</h3>
+        <p>Here are some of the projects accomplished over the course of time,
+        websites design, mobile apps design, etc.</p>
+        <hr>
+        <h4>Web design</h4>
+        <div class="web-design">
+        <div>
+          <img src="images/projects/codeplayer.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/fitofitgym.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/galleryflexbox.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/landingpage.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/myportfolio.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click Here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/photosgallery.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/suchiresto.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/tackytruck.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/todolist.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/wanckbbcnews.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/wancksiteprojectv1.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/wanckstore-e-commerce.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        <div>
+          <img src="images/projects/wantinfo.png" width="250px" height="150px" alt="">
+          <br/>
+          <a href="#">Click here to view</a>
+        </div>
+        </div>
+      </div>
+      <div class="seminar-conference">
+        <img src="images/seminar-conference.png" width="200px" alt="seminar">
+        <h3>Seminar and conferences</h3>
+        <hr>
+        <table cellspacing="50" width="60%">
+          <tr>
+            <td><img src="images/seminar-conferences/finlandlab.png" width="100px" alt=""></td>
+            <td><p>
+              <span class="semtitle">Machine learning & Artificial Intelligence Using Covid-19 Data Analysis</span><br/>
+              <span class="semcompany">Organized by, Finland Labs (A Unit of Revert Technology Pvt. Ltd.) in Association with NSS - IIT Roorkee</span><br/>
+              <span class="semdate"> 27th - 28th April 2020</span><br/>
+              <span class="semvenue">Venue, Online session</span><br/>
+              <span class="semcountry">New delhi, Republic of India</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/seminar-conferences/ducat.png" width="100px" alt=""></td>
+            <td><p>
+              <span class="semtitle">Java workshop</span><br/>
+              <span class="semcompany">DUCAT, The council of research and training</span><br/>
+              <span class="semdate">April 2017</span><br/>
+              <span class="semvenue">Venue, PCTE college</span><br/>
+              <span class="semcountry">Ludhiana, Punjab, Republic of India</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/seminar-conferences/jcertif.png" width="100px" alt="jcertif"></td>
+            <td><p>
+              <span class="semtitle">IT workshops (Photoshop, .NET, C#, Networking, etc.)</span><br/>
+              <span class="semcompany">JCERTIF</span><br/>
+              <span class="semdate">September 2015</span><br/>
+              <span class="semvenue">Venue, National library MARIEN NGOUABI, CCF(French cultural center)</span><br/>
+              <span class="semcountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/seminar-conferences/jcertif.png" width="100px" alt="jcertif"></td>
+            <td><p>
+              <span class="semtitle">IT workshops (Photoshop, .NET, C#, Networking, etc.)</span><br/>
+              <span class="semcompany">JCERTIF</span><br/>
+              <span class="semdate">September 2014</span><br/>
+              <span class="semvenue">Venue, National library MARIEN NGOUABI, CCF(French cultural center)</span><br/>
+              <span class="semcountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+        </table>
+      </div>
+      <div class="training-certification">
+        <img src="images/training-certification.png" width="200px" alt="training">
+        <h3>Training and certifications</h3>
+        <hr>
+        <table cellspacing="50" width="60%">
+          <tr>
+            <td><img src="images/training-certifications/jetking.png"  width="100px" alt="jetking"></td>
+            <td><p>
+               <span class="certtitle">Master in Network Administration and Cloud (MNA + Cloud)</span><br/>
+               <span class="certcompany">JETKING INFOTRAIN</span><br/>
+               <span class="certdate">April 2019 - January 2020</span><br/>
+               <span class="certcountry">New delhi, Republic of India</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/training-certifications/britishcouncil.png" width="100px" alt="britishcouncil"></td>
+            <td><p>
+              <span class="certtitle">IELTS Preparation Course Certificate</span><br/>
+              <span class="certcompany">BRISTISH COUNCIL INDIA</span><br/>
+              <span class="certdate">July 2018 - August 2018</span><br/>
+              <span class="certcountry">New delhi, Republic of India</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/training-certifications/ducat.png" width="100px" alt="ducat"></td>
+            <td><p>
+              <span class="certtitle">Android Certificate of Proficiency</span><br/>
+              <span class="certcompany">DUCAT, The council of research and training</span><br/>
+              <span class="certdate">May 2017 - July 2017</span><br/>
+              <span class="certcountry">Noida, Uttar pradesh, Republic of India</span>
+            </p></td>
+          </tr>
+        </table>
+      </div>
+      <div class="experience">
+        <img src="images/experience.png" width="200px" alt="experience">
+        <h3>Experiences</h3>
+        <hr>
+        <table cellspacing="20" width="60%">
+          <tr>
+            <td><img src="images/experiences/arpce.png" width="100px" alt="arpce"></td>
+            <td><p>
+              <span class="exptitle">Internship</span><br/>
+              <span class="expcompany">ARPCE, the National Regulatory Agency for Post Offices
+              and Electronics Communications</span><br/>
+              <span class="expdate">Oct 2014 - Nov 2015</span><br/>
+              <span class="expcountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><p>
+              <span class="exprole">Inventory mission of the Agency's patrimony</span><br/>
+              1 - Creation and deployment of the inventory management system database<br/>
+              2 - Data management and backup<br/>
+              3 - Analysing data and drawing reports and graphs
+            </p></td>
+          </tr>
+        </table>
+      </div>
+      <div class="education">
+        <img src="images/education.png" width="200px" alt="education">
+        <h3>Educations</h3>
+        <hr>
+        <table cellspacing="50" width="60%">
+          <tr>
+            <td><img src="images/educations/ptu.png" width="100px" alt="ptu"></td>
+            <td><p>
+              <span class="edutitle">I.K. Gujral Punjab Technical University Jalandhar</span><br/>
+              <span class="edudiplotitle">Master in Computer Application</span><br/>
+              <span class="edudate">2016-2018</span><br/>
+              <span class="educountry">Punjab, Republic of India</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/educations/esgae.png" width="100px" alt="esgae"></td>
+            <td><p>
+              <span class="edutitle">Higher Education Institute of Management and Business Administration (ESGAE)</span><br/>
+              <span class="edudiplotitle">Bachelor in Computer Science and Network</span><br/>
+              <span class="edudate">2012-2014</span><br/>
+              <span class="educountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/educations/gneto.png" width="100px" alt="gneto"></td>
+            <td><p>
+              <span class="edutitle">Gneto Private High School</span><br/>
+              <span class="edudiplotitle">12th grade high school diploma</span><br/>
+              <span class="edudate">2011</span><br/>
+              <span class="educountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+          <tr>
+            <td><img src="images/educations/unite.png" width="100px" alt="unite"></td>
+            <td><p>
+              <span class="edutitle">UNITE Private School</span><br/>
+              <span class="edudiplotitle">10th grade school diploma</span><br/>
+              <span class="edudate">2008</span><br/>
+              <span class="educountry">Brazzaville, Republic of Congo</span>
+            </p></td>
+          </tr>
+        </table>
+      </div>
+      <div class="hobby">
+        <img src="images/hobby.png" width="200px" alt="hobby">
+        <h3>Hobbies</h3>
+        <hr>
+        <table>
+          <tr>
+            <td>Reading</td>
+            <td><img src="images/hobbies/reading.png" width="60px" alt=""></td>
+          </tr>
+          <tr>
+            <td>Coding</td>
+            <td><img src="images/hobbies/coding.png" width="60px" alt=""></td>
+          </tr>
+          <tr>
+            <td>Youtube</td>
+            <td><img src="images/hobbies/youtube.png" width="60px" alt=""></td>
+          </tr>
+          <tr>
+            <td>Sport</td>
+            <td><img src="images/hobbies/gym.png" width="60px" alt=""></td>
+          </tr>
+        </table>
+      </div>
+      <div class="language">
+        <img src="images/language.png" width="200px" alt="language">
+        <h3>Languages</h3>
+        <hr>
+        <table cellspacing="30">
+          <tr>
+            <td>English :</td>
+            <td><span class="lang">Bilingual</span></td>
+          </tr>
+          <tr>
+            <td>French :</td>
+            <td><span class="lang">Native</span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact-me">
+        <h2>Contact Me</h2>
+        <hr>
+        <table cellspacing="20" width="80%">
+          <tr>
+            <th>Personal infos</th>
+            <th>Contacts</th>
+            <th>Channels</th>
+          </tr>
+          <tr>
+            <td>
+              Name: <span class="coninfo">Gaida, ITOUA WANCK EYIKA</span><br/>
+              Date of birth: <span class="coninfo">20 Jan 1994</span><br/>
+              Nationality: <span class="coninfo">Congolese&nbsp;<img src="images/flag-congo-bzv.png" width="20px" alt="congo"></span><br/>
+              Marital status: <span class="coninfo">Single</span><br/>
+              Residence: <span class="coninfo">16 paschimi marg, vasant vihar, New delhi, India</span>
+            </td>
+            <td>
+              Tel: <span class="coninfo">+917303679340</span><br/>
+              Email: <span class="coninfo">gdwanck@gmail.com / gdappwanck@gmail.com</span>
+            </td>
+            <td>
+              <span>Website: <br/><a href="http://wanckit.com" target="_blank">http://wanckit.com</a></span><br/>
+              <span>Youtube: <br/><a href="https://www.youtube.com/channel/UCPd3Lf9bXm87T9USOt-y4hg" target="_blank">Wanck IT</a> <i class="fa fa-youtube"></i></span><br/>
+              <span>Twitter: <br/><a href="https://twitter.com/wanckit01" target="_blank">@wanck01</a> <i class="fa fa-twitter"></i></span><br/>
+              <span>Instagram: <br/><a href="https://www.instagram.com/wanckit01/?hl=en" target="_blank">@wanck01</a> <i class="fa fa-instagram"></i></span><br/>
+              <span>Facebook: <br/><a href="https://www.facebook.com/people/Wanck-Itoua/100008667872750" target="_blank">Wanck Itoua</a> <i class="fa fa-facebook"></span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <p>&copy 2020 Wanck Itoua</p>
+    </div>
+  </body>
 </html>
