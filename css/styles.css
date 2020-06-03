@@ -69,6 +69,9 @@ p {
 .web-design {
   width: 60%;
 }
+.web-design div a {
+  text-decoration: none;
+}
 .project-panel div {
   display: inline-block;
   margin: 10px;
